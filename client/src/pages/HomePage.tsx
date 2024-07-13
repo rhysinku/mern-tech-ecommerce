@@ -1,7 +1,9 @@
+import { Banner } from "../components/BannerComponents/Banner";
+
 function HomePage() {
   return (
     <div>
-      <h2 className="font-primary font-bold">Welcome</h2>
+      <Banner />
     </div>
   );
 }
