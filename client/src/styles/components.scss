@@ -1,0 +1,11 @@
+.btn {
+  @apply py-1 px-3 rounded-md cursor-pointer;
+}
+
+.btn_primary {
+  @apply bg-primary text-white;
+}
+
+.btn_secondary {
+  @apply border-[1px] border-bodyColor text-primary;
+}
