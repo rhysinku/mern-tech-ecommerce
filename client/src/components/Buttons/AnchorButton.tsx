@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-
 interface AnchorButtonProps {
   className?: string | null;
   children?: React.ReactNode;

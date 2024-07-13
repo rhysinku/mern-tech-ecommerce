@@ -1,11 +1,17 @@
-.btn {
-  @apply py-1 px-3 rounded-md cursor-pointer;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-.btn_primary {
-  @apply bg-primary text-white hover:bg-secondary hover:text-white hover:shadow-md;
-}
+@layer components {
+  .btn {
+    @apply block w-max cursor-pointer rounded-md px-3 py-2;
+  }
 
-.btn_secondary {
-  @apply border-[1px] border-bodyColor text-primary hover:bg-bodyColor hover:text-white;
+  .btn_primary {
+    @apply bg-primary text-white hover:bg-secondary hover:text-white hover:shadow-md;
+  }
+
+  .btn_secondary {
+    @apply border-[1px] border-bodyColor text-primary hover:bg-bodyColor hover:text-white;
+  }
 }
