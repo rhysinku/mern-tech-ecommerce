@@ -6,17 +6,17 @@ export const Navigation: React.FC = () => {
     <>
       <div className="container px-3">
         <div className="py-8">
-          <div className="flex justify-between gap-3 md:gap-1 items-center flex-col md:flex-row">
-            <h1 className="font-primary font-bold text-2xl">qP Gadgets</h1>
-            <div className="relative md:w-3/5 w-full">
-              <form action="" className="w-full h-full">
+          <div className="flex flex-col items-center justify-between gap-3 md:flex-row md:gap-1">
+            <h1 className="font-primary text-2xl font-bold">qP Gadgets</h1>
+            <div className="relative w-full md:w-3/5">
+              <form action="" className="h-full w-full">
                 <input
-                  className=" bg-gray-200  rounded-sm px-1 py-1 w-full h-full peer"
+                  className="peer h-full w-full rounded-sm bg-gray-200 px-1 py-1"
                   type="search"
                   name=""
                   id=""
                 />
-                <label className="flex items-center absolute w-max inset-0 m-auto gap-2 peer-focus:opacity-0 opacity-1 transition-all pointer-events-none">
+                <label className="opacity-1 pointer-events-none absolute inset-0 m-auto flex w-max items-center gap-2 transition-all peer-focus:opacity-0">
                   <span>
                     <IoIosSearch />
                   </span>
@@ -24,7 +24,7 @@ export const Navigation: React.FC = () => {
                 </label>
               </form>
             </div>
-            <div className="flex gap-2 items-center">
+            <div className="flex items-center gap-2">
               <AnchorButton to={`signin`}>Log In</AnchorButton>
               <AnchorButton to={`signup`} className={`btn_secondary`}>
                 Sign Up
