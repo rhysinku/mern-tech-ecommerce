@@ -1,18 +1,15 @@
 import { Link } from "react-router-dom";
-import { GAuthButton } from "../../components/AuthButton/GAuthButton";
+import { GauthContent } from "../../components/AuthComponents/GauthContent";
 
 export const AuthLogin = () => {
   return (
-    <div>
+    <div className="block w-full">
       <div>
         <h1 className="text-4xl">Sign In</h1>
       </div>
-      <form action="">
+      <form action="" className="flex flex-col gap-5 mt-6">
         <div>
-          <GAuthButton />
-        </div>
-        <div>
-          <span>or</span>
+          <GauthContent />
         </div>
         <div>
           <div>
