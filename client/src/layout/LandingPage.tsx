@@ -5,13 +5,13 @@ import { Footer } from "../components/FooterComponent/Footer";
 function LandingPage() {
   return (
     <>
-      <nav>
+      <header>
         <Navigation />
-      </nav>
-      <main>
+      </header>
+      <main className="container">
         <Outlet />
       </main>
-      <footer>
+      <footer className="container">
         <Footer />
       </footer>
     </>
