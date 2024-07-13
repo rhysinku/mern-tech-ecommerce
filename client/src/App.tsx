@@ -1,7 +1,19 @@
+import {
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
+  RouterProvider,
+} from "react-router-dom";
+import LandingPage from "./layout/LandingPage";
+
 function App() {
+  const route = createBrowserRouter(
+    createRoutesFromElements(<Route path="/" element={<LandingPage />} />)
+  );
+
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <RouterProvider router={route} />
     </>
   );
 }
