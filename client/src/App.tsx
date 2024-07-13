@@ -19,8 +19,8 @@ function App() {
         <Route index element={<HomePage />} />
 
         <Route element={<AuthPage />}>
-          <Route path="/login" element={<AuthLogin />} />
-          <Route path="/signin" element={<AuthSignIn />} />
+          <Route path="/signin" element={<AuthLogin />} />
+          <Route path="/signup" element={<AuthSignIn />} />
         </Route>
       </Route>
     )

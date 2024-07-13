@@ -25,8 +25,8 @@ export const Navigation: React.FC = () => {
               </form>
             </div>
             <div className="flex gap-5 items-center">
-              <AnchorButton to={`login`}>Log In</AnchorButton>
-              <AnchorButton to={`signin`} className={`btn_secondary`}>
+              <AnchorButton to={`signin`}>Log In</AnchorButton>
+              <AnchorButton to={`signup`} className={`btn_secondary`}>
                 Sign Up
               </AnchorButton>
             </div>
