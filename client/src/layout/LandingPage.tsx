@@ -1,11 +1,19 @@
 import { Outlet } from "react-router-dom";
+import { Navigation } from "../components/NavigationComponent/Navigation";
+import { Footer } from "../components/FooterComponent/Footer";
 
 function LandingPage() {
   return (
     <>
-      <div>
+      <nav>
+        <Navigation />
+      </nav>
+      <main>
         <Outlet />
-      </div>
+      </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }
