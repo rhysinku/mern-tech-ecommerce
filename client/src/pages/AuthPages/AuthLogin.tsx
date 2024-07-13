@@ -30,7 +30,7 @@ export const AuthLogin = () => {
         </div>
       </form>
       <p className="italic mt-5">
-        Don’t have an account?{" "}
+        Don’t have an account?
         <Link to="/signup" className="hover:underline">
           Sign Up
         </Link>
