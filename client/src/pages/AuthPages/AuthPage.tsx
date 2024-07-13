@@ -11,7 +11,7 @@ export const AuthPage = () => {
                 <img src="https://picsum.photos/768/956" alt="" />
               </figure>
             </div>
-            <section>
+            <section className="px-8 py-7">
               <Outlet />
             </section>
           </div>

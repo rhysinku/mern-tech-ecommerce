@@ -11,7 +11,7 @@ export const Navigation: React.FC = () => {
             <div className="relative w-3/5">
               <form action="" className="w-full h-full">
                 <input
-                  className="box-border bg-gray-200 w-full h-full rounded-sm px-1 py-1 block"
+                  className=" bg-gray-200  rounded-sm px-1 py-1 w-full h-full "
                   type="search"
                   name=""
                   id=""
