@@ -5,9 +5,14 @@ export const Navigation = () => {
         <h1 className="font-primary font-bold">qP Gadgets</h1>
         <div>
           <form action="">
-            <input type="search" name="" id="" />
+            <input
+              className="box-content bg-gray-200"
+              type="search"
+              name=""
+              id=""
+            />
             <label>
-              <span></span>
+              <span>Search</span>
             </label>
           </form>
         </div>
