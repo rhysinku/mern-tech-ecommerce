@@ -1,4 +1,4 @@
-import { Button } from "../Buttons/Button";
+import { AnchorButton } from "../Buttons/AnchorButton";
 import { IoIosSearch } from "react-icons/io";
 
 export const Navigation: React.FC = () => {
@@ -25,8 +25,10 @@ export const Navigation: React.FC = () => {
               </form>
             </div>
             <div className="flex gap-5 items-center">
-              <Button>Log In</Button>
-              <Button className={`btn_secondary`}>Sign Up</Button>
+              <AnchorButton to={`login`}>Log In</AnchorButton>
+              <AnchorButton to={`signin`} className={`btn_secondary`}>
+                Sign Up
+              </AnchorButton>
             </div>
           </div>
         </div>

@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <div className="bg-bodyColor">
       <div className="container">
-        <div className="py-8">
+        <div className="py-52">
           <section>
             <FooterMainContent />
           </section>
