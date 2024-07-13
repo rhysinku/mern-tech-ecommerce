@@ -22,8 +22,8 @@ export const BannerItem: React.FC<BannerItemProps> = ({ item }) => {
         </figure>
         <div className="container">
           <div className="absolute bottom-0 top-0 m-auto h-max w-full max-w-3xl">
-            <h2 className="text-5xl">{item.header}</h2>
-            <h3 className="mb-3 text-2xl">{item.subHeader}</h3>
+            <h2 className="text-5xl font-bold">{item.header}</h2>
+            <h3 className="mb-3 text-2xl font-bold">{item.subHeader}</h3>
             <p>{item.content}</p>
 
             <AnchorButton to={`shop`} className={`btn_primary mt-6 py-3`}>
