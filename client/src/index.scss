@@ -5,24 +5,18 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  body {
-    @apply font-secondary text-base;
-  }
-  input {
-    @apply box-border block;
-  }
+body {
+  @apply font-secondary text-base;
+}
+input {
+  @apply box-border block;
+}
 
-  h1 {
-    @apply font-primary font-bold;
-  }
-  h2 {
-    @apply font-primary font-bold;
-  }
-  h3 {
-    @apply font-primary font-bold;
-  }
-  h4 {
-    @apply font-primary font-bold;
-  }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-primary font-bold;
 }
