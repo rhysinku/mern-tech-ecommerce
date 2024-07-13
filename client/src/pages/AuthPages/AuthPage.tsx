@@ -5,8 +5,8 @@ export const AuthPage = () => {
     <>
       <div>
         <div className="max-w-screen-2xl w-full m-auto">
-          <div className="grid grid-cols-2">
-            <div>
+          <div className="lg:grid lg:grid-cols-2">
+            <div className="hidden lg:block">
               <figure>
                 <img src="https://picsum.photos/768/956" alt="" />
               </figure>
