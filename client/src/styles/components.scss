@@ -3,9 +3,9 @@
 }
 
 .btn_primary {
-  @apply bg-primary text-white;
+  @apply bg-primary text-white hover:bg-secondary hover:text-white hover:shadow-md;
 }
 
 .btn_secondary {
-  @apply border-[1px] border-bodyColor text-primary;
+  @apply border-[1px] border-bodyColor text-primary hover:bg-bodyColor hover:text-white;
 }
