@@ -5,15 +5,17 @@ import { Footer } from "../components/FooterComponent/Footer";
 function LandingPage() {
   return (
     <>
-      <header>
-        <Navigation />
-      </header>
-      <main className="container">
-        <Outlet />
-      </main>
-      <footer className="container">
-        <Footer />
-      </footer>
+      <div>
+        <header>
+          <Navigation />
+        </header>
+        <main className="container">
+          <Outlet />
+        </main>
+        <footer className="container">
+          <Footer />
+        </footer>
+      </div>
     </>
   );
 }
