@@ -1,5 +1,6 @@
 import { AnchorButton } from "../Buttons/AnchorButton";
 import { IoIosSearch } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 export const Navigation: React.FC = () => {
   return (
@@ -7,7 +8,9 @@ export const Navigation: React.FC = () => {
       <div className="container px-3">
         <div className="py-8">
           <div className="flex flex-col items-center justify-between gap-3 md:flex-row md:gap-1">
-            <h1 className="font-primary text-2xl font-bold">qP Gadgets</h1>
+            <h1 className="font-primary text-2xl font-bold">
+              <Link to={"/"}>qP Gadgets</Link>
+            </h1>
             <div className="relative w-full md:w-3/5">
               <form action="" className="h-full w-full">
                 <input
