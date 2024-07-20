@@ -2,7 +2,7 @@ import { AnchorButton } from "../../Buttons/AnchorButton";
 
 export const MainComponent = () => {
   return (
-    <main className="my-9 px-2">
+    <main className="my-14 px-2">
       <div className="m-auto flex min-h-[650px] w-full max-w-screen-xl overflow-hidden rounded-2xl">
         <section className="relative isolate flex w-1/2 items-center justify-center text-white">
           <figure className="absolute inset-0 -z-10 m-auto w-full overflow-hidden">
