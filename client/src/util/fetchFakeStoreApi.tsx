@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-async function fetchStoreApi(command?: string) {
+async function getApi(command?: string) {
   const isCommandTrue = command ? command : "";
 
   try {
@@ -18,7 +18,7 @@ async function fetchStoreApi(command?: string) {
   }
 }
 
-function useFetch(command?: string) {
+function useFetchStoreApi(command?: string) {
   const [data, setData] = useState<any>(null);
   const [loading, setLoading] = useState<boolean>(false);
   const [error, setError] = useState<string | null>(null);
@@ -26,7 +26,7 @@ function useFetch(command?: string) {
   useEffect(() => {
     const fetchData = async () => {
       setLoading(true);
-      const result = await fetchStoreApi(command);
+      const result = await getApi(command);
       if (result === null) {
         setError("Error fetching data");
       } else {
@@ -40,4 +40,4 @@ function useFetch(command?: string) {
   return { data, loading, error };
 }
 
-export default useFetch;
+export default useFetchStoreApi;
