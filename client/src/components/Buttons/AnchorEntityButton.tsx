@@ -9,12 +9,15 @@ export const AnchorEntityButton: React.FC<AnchorEntityButtonProps> = ({
   to = "/",
 }) => {
   return (
-    <div>
-      <Link to={to}>
-        <span className="relative text-bodyColor transition-transform duration-300 hover:translate-x-10 hover:text-secondary">
+    <>
+      <Link
+        to={to}
+        className="relative text-bodyColor transition-transform duration-300 hover:translate-x-2 hover:text-secondary"
+      >
+        <span>
           <FaArrowRightLong />
         </span>
       </Link>
-    </div>
+    </>
   );
 };
