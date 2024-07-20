@@ -1,16 +1,16 @@
-import { NewArrival } from "../../../types/ArrivalTypes";
+import { newArrivalProducts } from "../../../types/ArrivalTypes";
 interface MiddleCardProps {
-  item: NewArrival;
+  item: newArrivalProducts;
 }
 
 export const MiddleCard: React.FC<MiddleCardProps> = ({ item }) => {
   return (
     <section>
       <figure>
-        <img src={item.imageUrl} alt={item.productName} />
+        <img src={item.image} alt={item.title} />
       </figure>
       <section>
-        <h2>{item.productName}</h2>
+        <h2>{item.title}</h2>
       </section>
     </section>
   );
