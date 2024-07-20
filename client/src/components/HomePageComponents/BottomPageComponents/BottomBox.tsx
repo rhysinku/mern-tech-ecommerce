@@ -1,10 +1,14 @@
 import BottomCard from "./BottomCard";
 
-export const BottomBox = () => {
+interface BottomBoxProps {
+  title: string;
+}
+
+export const BottomBox: React.FC<BottomBoxProps> = ({ title }) => {
   return (
-    <div>
+    <div className="mb-8">
       <section className="mb-7">
-        <h1 className="line-fx text-3xl">PC Peripherals </h1>
+        <h1 className="line-fx text-3xl">{title} </h1>
       </section>
 
       <div className="flex flex-wrap justify-evenly gap-x-2 gap-y-7">
