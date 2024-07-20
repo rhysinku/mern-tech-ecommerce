@@ -1,14 +1,14 @@
-import { MiddleCard } from "./MiddleCard";
+import { MiddleCarousel } from "./MiddleCarousel";
 
 export const MiddleComponent = () => {
   return (
     <div>
-      <section>
+      <section className="mb-7">
         <h2 className="line-fx text-3xl">New Arrival</h2>
       </section>
 
       <div>
-        <MiddleCard />
+        <MiddleCarousel />
       </div>
     </div>
   );

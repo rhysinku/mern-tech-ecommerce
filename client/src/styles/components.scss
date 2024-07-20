@@ -17,9 +17,10 @@
 
   .line-fx {
     position: relative;
+    padding-left: 10px;
     &::before {
       content: "";
-      @apply block h-full w-1 rounded-sm bg-primary;
+      @apply absolute bottom-0 left-0 top-0 block h-full w-1 rounded-sm bg-primary;
     }
   }
 }
