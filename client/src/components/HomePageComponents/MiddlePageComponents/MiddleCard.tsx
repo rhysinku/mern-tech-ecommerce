@@ -4,5 +4,14 @@ interface MiddleCardProps {
 }
 
 export const MiddleCard: React.FC<MiddleCardProps> = ({ item }) => {
-  return <section>{item.productName}</section>;
+  return (
+    <section>
+      <figure>
+        <img src={item.imageUrl} alt={item.productName} />
+      </figure>
+      <section>
+        <h2>{item.productName}</h2>
+      </section>
+    </section>
+  );
 };
