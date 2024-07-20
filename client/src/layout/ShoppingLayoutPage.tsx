@@ -4,7 +4,7 @@ import { ShoppingAside } from "../components/ShoppingPageComponent/ShoppingAside
 export const ShoppingLayoutPage = () => {
   return (
     <main className="container min-h-screen">
-      <div className="grid grid-cols-4">
+      <div className="grid grid-cols-4 gap-1">
         <aside className="col-span-1">
           <ShoppingAside />
         </aside>
