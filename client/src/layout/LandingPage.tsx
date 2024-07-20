@@ -9,9 +9,9 @@ function LandingPage() {
         <header>
           <Navigation />
         </header>
-        <main>
+        <div>
           <Outlet />
-        </main>
+        </div>
         <footer>
           <Footer />
         </footer>

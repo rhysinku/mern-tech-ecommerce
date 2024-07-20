@@ -14,6 +14,9 @@ export default {
       },
     },
     extend: {
+      gridTemplateRows: {
+        layout: "auto 1fr auto",
+      },
       fontFamily: {
         primary: ["Lexend", "sans-serif"],
         secondary: ["League Spartan", "sans-serif"],
