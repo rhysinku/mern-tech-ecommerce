@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "productName": "High-Performance Laptop",
+    "imageUrl": "https://source.unsplash.com/featured/?laptop"
+  },
+  {
+    "id": 2,
+    "productName": "Gaming Console",
+    "imageUrl": "https://source.unsplash.com/featured/?console"
+  },
+  {
+    "id": 3,
+    "productName": "Ultrabook",
+    "imageUrl": "https://source.unsplash.com/featured/?ultrabook"
+  },
+  {
+    "id": 4,
+    "productName": "Desktop Computer",
+    "imageUrl": "https://source.unsplash.com/featured/?desktop"
+  },
+  {
+    "id": 5,
+    "productName": "Gaming Laptop",
+    "imageUrl": "https://source.unsplash.com/featured/?gaming+laptop"
+  },
+  {
+    "id": 6,
+    "productName": "Workstation",
+    "imageUrl": "https://source.unsplash.com/featured/?workstation"
+  },
+  {
+    "id": 7,
+    "productName": "Convertible Laptop",
+    "imageUrl": "https://source.unsplash.com/featured/?convertible+laptop"
+  },
+  {
+    "id": 8,
+    "productName": "All-in-One PC",
+    "imageUrl": "https://source.unsplash.com/featured/?all-in-one+pc"
+  },
+  {
+    "id": 9,
+    "productName": "Portable Gaming Console",
+    "imageUrl": "https://source.unsplash.com/featured/?portable+console"
+  },
+  {
+    "id": 10,
+    "productName": "Server Rack",
+    "imageUrl": "https://source.unsplash.com/featured/?server+rack"
+  }
+]
