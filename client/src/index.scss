@@ -6,7 +6,7 @@
 @tailwind utilities;
 
 body {
-  @apply font-secondary text-base;
+  @apply font-secondary text-base text-bodyColor;
 }
 input {
   @apply box-border block;

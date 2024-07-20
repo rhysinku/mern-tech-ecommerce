@@ -20,7 +20,7 @@ export const BannerItem: React.FC<BannerItemProps> = ({ item }) => {
             alt=""
           />
         </figure>
-        <div className="container">
+        <div className="container px-2">
           <div className="absolute bottom-0 top-0 m-auto h-max w-full max-w-3xl">
             <h2 className="text-5xl font-bold">{item.header}</h2>
             <h3 className="mb-3 text-2xl font-bold">{item.subHeader}</h3>

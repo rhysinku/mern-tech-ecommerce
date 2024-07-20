@@ -44,7 +44,7 @@ export const Banner = () => {
       <Swiper spaceBetween={50} slidesPerView={1}>
         {bannerItem.map((item, index) => (
           <SwiperSlide key={index}>
-            <BannerItem item={item}/>
+            <BannerItem item={item} />
           </SwiperSlide>
         ))}
       </Swiper>
