@@ -13,6 +13,10 @@ export const MiddleCarousel: React.FC = () => {
         spaceBetween={15}
         slidesPerView={1}
         loop={true}
+        autoplay={{
+          delay: 500, // Delay between slides in ms
+          disableOnInteraction: false, // Continue autoplay after user interactions
+        }}
         breakpoints={{
           640: {
             slidesPerView: 1, // Number of slides per view for screen widths ≥ 640px
