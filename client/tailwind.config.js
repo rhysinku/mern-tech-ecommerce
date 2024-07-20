@@ -2,6 +2,17 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    container: {
+      center: true,
+      padding: "1rem", // Optional: Add padding
+      screens: {
+        sm: "100%",
+        md: "100%",
+        lg: "1240px",
+        xl: "1240px",
+        "2xl": "1240px",
+      },
+    },
     extend: {
       fontFamily: {
         primary: ["Lexend", "sans-serif"],
