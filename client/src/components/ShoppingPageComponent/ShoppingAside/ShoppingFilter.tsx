@@ -25,12 +25,18 @@ export const ShoppingFilter = () => {
       <section>
         <h3>Category</h3>
         <div className="mt-2">
-          <select value={productCategory} onChange={handleProductCategory}>
-            <option value="">Select Category</option>
-            <option value="computer">computer</option>
-            <option value="laptop">laptop</option>
-            <option value="console">console</option>
-          </select>
+          <div className="w-full">
+            <select
+              className="w-full rounded-sm px-2 py-2 text-base"
+              value={productCategory}
+              onChange={handleProductCategory}
+            >
+              <option value="">Select Category</option>
+              <option value="computer">Computer</option>
+              <option value="laptop">Laptop</option>
+              <option value="console">Console</option>
+            </select>
+          </div>
         </div>
       </section>
     </>
