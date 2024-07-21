@@ -1,0 +1,37 @@
+[
+  {
+    "computer": [
+      { "name": "Brand", "key": "brand", "options": ["Dell", "HP", "Lenovo"] },
+      {
+        "name": "Price Range",
+        "key": "priceRange",
+        "options": [
+          "Under $500",
+          "$500 - $1000",
+          "$1000 - $1500",
+          "Above $1500"
+        ]
+      }
+    ],
+    "laptop": [
+      { "name": "Brand", "key": "brand", "options": ["Apple", "Asus", "Acer"] },
+      {
+        "name": "Screen Size",
+        "key": "screenSize",
+        "options": ["13 inch", "15 inch", "17 inch"]
+      }
+    ],
+    "console": [
+      {
+        "name": "Type",
+        "key": "type",
+        "options": ["PlayStation", "Xbox", "Nintendo"]
+      },
+      {
+        "name": "Storage",
+        "key": "storage",
+        "options": ["500GB", "1TB", "2TB"]
+      }
+    ]
+  }
+]

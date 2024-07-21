@@ -1,6 +1,6 @@
 import { ChangeEvent, useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-
+import productCategoryJson from "../../../placeholderJson/productCategory.json";
 export const ShoppingFilter = () => {
   const [productCategory, setProductCategory] = useState<string>("");
   const navigate = useNavigate();
@@ -20,6 +20,8 @@ export const ShoppingFilter = () => {
     navigate(`?${searchParams.toString()}`, { replace: true });
   }, [productCategory, navigate]);
 
+  console.log(productCategoryJson);
+
   return (
     <>
       <section>
@@ -31,6 +33,13 @@ export const ShoppingFilter = () => {
               value={productCategory}
               onChange={handleProductCategory}
             >
+              {/* {productCategory.map((category, index) => 
+              
+              <option>
+
+              </option>
+              
+              )} */}
               <option value="">Select Category</option>
               <option value="computer">Computer</option>
               <option value="laptop">Laptop</option>
