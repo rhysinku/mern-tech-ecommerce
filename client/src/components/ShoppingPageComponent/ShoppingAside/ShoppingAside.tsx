@@ -1,4 +1,4 @@
-import ShoppingFilter from "./ShoppingFilter";
+import { ShoppingFilter } from "./ShoppingFilter";
 
 export const ShoppingAside: React.FC = () => {
   return (
